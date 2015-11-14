@@ -1,5 +1,6 @@
 import strutils
 import os
+import parseopt2
 
 proc readinput(): auto =
     var input: string
@@ -34,7 +35,11 @@ proc filecheck(stringList: seq): auto =
 
 proc main(): auto =
     var nimcat_version: string
-    nimcat_version = "0.0.1a"
+    nimcat_version = "0.0.1a" # Remove a when production ready.
+    #
+    # Get console flags here, so we can skip the rest if they just want a version.
+    # See http://github.com/arthurtw/nim-examples/blob/master/wordcount.nim#49 for an example.
+    #
     var input: string
     input = readinput()
     var stringList = makestrings(input)
