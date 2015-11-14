@@ -33,6 +33,8 @@ proc filecheck(stringList: seq): auto =
     return outString
 
 proc main(): auto =
+    var nimcat_version: string
+    nimcat_version = "0.0.1a"
     var input: string
     input = readinput()
     var stringList = makestrings(input)
