@@ -57,7 +57,7 @@ MIT License, see [LICENSE](LICENSE) for more.
 You can help contribute by:
 
 * Compiling a binary for an architecture not yet in the ```bins``` folder.
-* Implementing a feature in the [TODO.md](TODO.md) file
+* Implementing a feature in the [ROADMAP.md](ROADMAP.md) file, for the next version. Currently, 0.0.1
 * Opening an issue for a problem you've found
 * Opening an issue for a suggestion you have
 * Creating a Pull Request to fix an Open Issue.
