@@ -6,6 +6,12 @@ I threw it together as a simple way to get to grips with [nim](http://nim-lang.o
 
 ---
 
+## Precompiled Binaries
+
+Any version of nimcat that has already been compiled can be found in the ```bins``` folder.
+
+---
+
 ## Compiling:
 
 You will need [nim](http://nim-lang.org) installed.
