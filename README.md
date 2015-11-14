@@ -10,14 +10,27 @@ I threw it together as a simple way to get to grips with [nim](http://nim-lang.o
 
 Any version of nimcat that has already been compiled can be found in the ```bins``` folder.
 
+Any version with ```-win``` suffixed, is a version compiled for Windows.
+
 ---
 
 ## Compiling:
 
 You will need [nim](http://nim-lang.org) installed.
 
+To get the files, use the ```master``` branch from git.
+
+```
+git clone https://github.com/shakna-israel/nimcat.git
+git checkout master
+```
+
 To produce a production-quality executable, I recommend:
 
+```
+nim c -d:release nimcat.nim
+strip nimcat
+```
 ```
 nim c -d:release nimcat.nim
 strip nimcat
