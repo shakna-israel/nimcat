@@ -10,7 +10,7 @@ I threw it together as a simple way to get to grips with [nim](http://nim-lang.o
 
 You will need [nim](http://nim-lang.org) installed.
 
-To produce a production-quality executable, I reccomend:
+To produce a production-quality executable, I recommend:
 
 ```
 nim c -d:release nimcat.nim
