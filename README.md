@@ -2,7 +2,7 @@
 
 This is a simple command line utility that replicates some of the functionality of the ```cat``` command found on most Linux systems.
 
-I through it together as a simple way to get to grips with [nim](http://nim-lang.org).
+I threw it together as a simple way to get to grips with [nim](http://nim-lang.org).
 
 ---
 
